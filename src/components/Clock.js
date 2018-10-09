@@ -65,8 +65,6 @@ class Clock extends Component {
     var hour = time.format('HH');
     var min = time.format('mm');
     var sec = time.format('ss');
-
-    time = time.format('HH:mm:ss'); 
     return (
       <div className="clockCube" style={ styles.clockCube }>
         <div className="clockDate" style={ styles.clockDate } >
